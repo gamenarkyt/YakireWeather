@@ -1,0 +1,52 @@
+.mainpage {
+  width: calc(100vw - 2rem);
+  height: 100%;
+
+  padding: 1rem;
+  .weather_preview {
+    // width: 100vw;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    // background-color: red;
+
+    .weathericon_container {
+      width: 15rem;
+      height: 12rem;
+    }
+
+    .weather_degrees {
+      font-size: 3rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+    }
+
+    .weather_county {
+      color: gray;
+    }
+  }
+
+  .weather_thisday {
+    width: calc(100vw - 2rem);
+    height: 10rem;
+    display: grid;
+    grid-template-columns: repeat(6, 6.5rem);
+    grid-template-rows: 1;
+    gap: 0.5rem;
+    overflow-x: scroll;
+
+    background-color: var(--primary);
+    border-radius: var(--border-radius);
+
+    margin-top: 4rem;
+
+    &:first-child {
+      padding: 100px;
+      background-color: red;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.header {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 0.5rem;
+  
+  .sitename {
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+}

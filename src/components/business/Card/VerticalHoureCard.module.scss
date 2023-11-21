@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+
+  //   background-color: var(--primary);
+  //   border-radius: var(--border-radius);
+
+  .weathericon_container {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.card_today {
+  background-color: var(--accent);
+}
