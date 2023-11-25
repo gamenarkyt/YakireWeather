@@ -1,0 +1,46 @@
+.citycard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--primary);
+  border-radius: var(--border-radius);
+
+  padding: 10px;
+
+  .leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .weather_info_container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+
+      .degrees {
+        font-size: larger;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+      }
+      .weather {
+        color: grey;
+      }
+    }
+    .country {
+      font-size: medium;
+      font-weight: bold;
+    }
+    .time {
+      color: grey;
+    }
+  }
+
+  .rightside {
+    .weatherimage_container {
+      width: 5rem;
+      height: 5%;
+    }
+  }
+}

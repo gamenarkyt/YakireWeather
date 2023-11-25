@@ -1,16 +1,5 @@
-# Base React Template
+# weather
 
-## What it use:
+## add icity type for cities list
 
-### Base:
-
-- React
-- React-router-dom
-- React-query
-- axios
-- useHooks
-
-### Additional:
-
-- useHooks
-- import alias (configure your vscode to non-relative import)
+## rename current city type to searchity type
